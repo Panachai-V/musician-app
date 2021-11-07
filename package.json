@@ -4,9 +4,7 @@
   "description": "A NodeJS REST API poc",
   "main": "app.js",
   "scripts": {
-    "test": "jest",
-    "start": "nodemon app.js",
-    "start-dev": "nodemon app.js"
+    "deploy": "npm run build && npm run start"
   },
   "author": "Jonathan Spruance",
   "license": "ISC",
